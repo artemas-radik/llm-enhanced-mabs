@@ -15,3 +15,9 @@
 `plot.py` generates plots for the runtimes of `main.py`
 
 `results.txt` contains the LLM-enhanced 1000 entries from `gen.py`
+
+`CS_184_Final_Project.ipynb` the .ipynb format of our Google Collab where we ran our MAB algorithms
+
+`cs_184_final_project.py` the .py format of our Google Collab where we ran our MAB algorithms
+
+the original google collab can be found at https://colab.research.google.com/drive/1ydS__k_oCsUqfne9wqNfhW8ebmUNhx8S
