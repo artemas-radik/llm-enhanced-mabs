@@ -285,11 +285,13 @@ ax.fill_between(steps, l_t_5, l_t_95, color='r', alpha=.1)
 ax.set_xlabel('Step')
 ax.set_ylabel('Cumulative Regret')
 ax.set_title('Cumulative Regret for Different Algorithms')
-ax.set_ylim
+ax.set_xlim((0, 10100))
+ax.set_ylim((0, 4600))
 ax.legend()
 
 plt.show()
 
+# Get raw numbers for final regret
 print(u_avg[-1], u_5[-1], u_95[-1])
 print(t_avg[-1], t_5[-1], t_95[-1])
 print(l_u_avg[-1], l_u_5[-1], l_u_95[-1])
